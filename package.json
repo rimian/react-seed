@@ -1,7 +1,7 @@
 {
   "name": "react-seed",
-  "version": "0.0.0",
-  "description": "My empty react project",
+  "version": "0.1.0",
+  "description": "My React JS seed project",
   "main": "index.js",
   "scripts": {
     "test": "gulp"
@@ -18,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/rimian/react-seed/issues"
   },
-  "homepage": "https://github.com/rimian/react-seed#readme"
+  "homepage": "https://github.com/rimian/react-seed#readme",
+  "dependencies": {
+    "babel-preset-react": "^6.5.0",
+    "babelify": "^7.2.0",
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1",
+    "watchify": "^3.7.0"
+  }
 }
