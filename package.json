@@ -2,9 +2,9 @@
   "name": "react-seed",
   "version": "0.1.0",
   "description": "My React JS seed project",
-  "main": "index.js",
+  "main": "public/js/main.js",
   "scripts": {
-    "test": "gulp"
+    "start": "watchify src/main.jsx -v -t [ babelify --presets [ react ] ] -o public/js/main.js"
   },
   "repository": {
     "type": "git",
